@@ -3,6 +3,11 @@
 Coding html emails in rails env.
 It uses `mjml-rails` as templating and `letter_opener` to preview emails in the browser.
 
+### Requirements
+This was only tested in
+* `Rails 5.0^`
+* `ruby 2.3.1p112 (2016-04-26 revision 54768)`
+
 ### setup
 
 * `bundle install`
