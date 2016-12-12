@@ -1,0 +1,11 @@
+<!-- ./app/views/foobar_mailer/baz.mjml -->
+
+<mjml>
+  <mj-body>
+    <mj-container>
+    	<mj-section>
+      <mj-text>Hello <%= @name %></mj-text>
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>
