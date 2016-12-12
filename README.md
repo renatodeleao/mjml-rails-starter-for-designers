@@ -36,6 +36,20 @@ Secondly, create a corresponding view `badjoras.mjml` file in the `app/views/exa
 </mjml>
 ```
 
+and you can use partials 🎊 (note that [formats property must be html](http://dev.edenspiekermann.com/2016/06/02/using-mjml-in-rails/))
+```ERB
+<mjml>
+  <mj-body>
+    <mj-container>
+    	<!-- Email header that lives in ./app/views/badjoras_mailer/_badjoras_header.mjml -->
+      	<%= render partial: 'badjoras_header', formats: [:html] %>
+  
+      	<mj-text>Welcome <%= @name =%> to the world of Badjoras</mj-text>
+    </mj-container>
+  </mj-body>
+</mjml>
+```
+
 
 Finally in order to preview the email in the browser, add this two magic lines to `development.rb`
 ```Ruby
