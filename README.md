@@ -90,4 +90,4 @@ Oh boy you're developer/engineer friend is not going to like this but at the tim
 
 ### Notes
 * This has unecessary `user` database stuff, I probably have created those while following one of the 10 tutorials, but you can ignore that part. When I discover how to remove them, I'll updated the repo.
-* Found this repo name offensive and misleading relative to the designer working class? Shoot me a tweet, I might read it while taking a big dump.
+* Found this repo name offensive and misleading relative to the designer working class? Shoot me a tweet, I might read it while taking a big `rake db:dump` 😎.
