@@ -1,6 +1,6 @@
 # ./app/mailers/foobar_mailer.rb
-class FoobarMailer < ActionMailer::Base
-  def baz(name)
+class BadjorasMailer < ActionMailer::Base
+  def badjoras(name)
     @name = name
 
     mail(to: 'test@example.com', subject: 'test') do |format|

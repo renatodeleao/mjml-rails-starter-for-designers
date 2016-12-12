@@ -63,11 +63,11 @@ Finally in order to preview the email in the browser, add this two magic lines t
   config.action_mailer.delivery_method = :letter_opener
 ```
 
-and create a preview file `example_mailer_preview.rb`inside `test/mailers/previews`, it should look like this
+and create a preview file `badjoras_mailer_preview.rb`inside `test/mailers/previews`, it should look like this
 
 ```Ruby
 # Preview all emails at http://localhost:3000/rails/mailers/
-class BadjorasrMailerPreview < ActionMailer::Preview
+class BadjorasMailerPreview < ActionMailer::Preview
   def badjoras
     BadjorasMailer.badjoras('Teste Name')
   end
@@ -76,6 +76,8 @@ end
 
 *Uff that's a wrap*
 
+### What if I need more than one email template
+Oh boy you're developer/engineer friend is not going to like this but at the time of writing I didn't figure it out a way of reusing this piece of code, so yes you have to duplicate. I'll updated this file when I have time to check that out.
 
 
 ### Thanks
