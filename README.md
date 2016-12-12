@@ -10,6 +10,7 @@ This was only tested in
 
 ### setup
 
+* install mjml globally `npm install -g mjml@^3.0`
 * `bundle install`
 * `rails s`
 * go to `localhost:3000/rails/mailers` to display a list of the current emails.
