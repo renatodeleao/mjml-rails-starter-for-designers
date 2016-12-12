@@ -1,7 +1,7 @@
 # MJML RAILS STARTER
 
 Coding html emails in rails env.
-It uses `mjml-rails` as templating and `letter_opener` to preview emails in the browser.
+It uses [MJML](https://mjml.io) as templating and [letter_opener](https://github.com/ryanb/letter_opener) to preview emails in the browser.
 
 ### Requirements
 This was only tested in
@@ -29,7 +29,7 @@ class BadjorasMailer < ApplicationMailer
 end
 ```
 
-Secondly, create a corresponding view `badjoras.mjml` file in the `app/views/example_mailer` (it should match the controller name)
+Secondly, create a corresponding view `badjoras.mjml` file in the `app/views/badjoras_mailer` (it should match the controller name)
 
 ```ERB
 <mjml>
@@ -79,6 +79,8 @@ end
 
 ### Thanks
 * To the folks o https://mjml.io for helping fighting the HTML email development war.
+* To @sighmon for creating the [mjml-rails](https://github.com/sighmon/mjml-rails/) gem that powers this
+* To @ryanb for the [letter_opener]() gem for preview in the browser
 * Hugo Giraudel for the [inspiring article](http://dev.edenspiekermann.com/2016/06/02/using-mjml-in-rails/)
 * To the internet, making designers navigate upstream the developer river, even without having a single clue of what they're doing. (Sry i don't remember the url of the 100 article + stackoverflow questions)
 
