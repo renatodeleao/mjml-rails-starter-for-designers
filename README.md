@@ -81,3 +81,7 @@ end
 * To the folks o https://mjml.io for helping fighting the HTML email development war.
 * Hugo Giraudel for the [inspiring article](http://dev.edenspiekermann.com/2016/06/02/using-mjml-in-rails/)
 * To the internet, making designers navigate upstream the developer river, even without having a single clue of what they're doing. (Sry i don't remember the url of the 100 article + stackoverflow questions)
+
+
+### Notes
+Found this repo name offensive and misleading to the designer working class? Shoot me a tweet, I might read it while taking a big dump.
